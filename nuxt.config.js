@@ -34,10 +34,15 @@ export default {
         // https://go.nuxtjs.dev/axios
         '@nuxtjs/axios',
     ],
-
     // Axios module configuration: https://go.nuxtjs.dev/config-axios
     axios: {},
 
     // Build Configuration: https://go.nuxtjs.dev/config-build
-    build: {}
+    build: {},
+
+    target: 'static',
+
+    router: {
+        base: '/demo'
+    }
 }
