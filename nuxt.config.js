@@ -43,6 +43,6 @@ export default {
     target: 'static',
 
     router: {
-        base: '/demo'
+        base: '/demo/'
     }
 }
